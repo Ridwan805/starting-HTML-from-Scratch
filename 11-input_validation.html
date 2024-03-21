@@ -1,0 +1,26 @@
+<!--In some websites we see that the length of must have minimun of 4 characters and
+maximum of 10 characters and if we input more it won't take it as a password. Now lets see how we can do it in html
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What is form?</title>
+    </head>
+    <body>
+        <form>
+            <h2>Sign Up Now!</h2>
+            Username: <input type="text" minlength="6" maxlength="16" required/>
+            <br><br>password
+            Email: <input type="email" required/>
+            <br><br>
+            Password: <input type="password" minlength="4" maxlength="10" required / >
+            <br><br>
+            Confirm Password: <input type="password" minlength="4" maxlength="10" required />
+            <br><br>
+            <input type="Submit">
+
+            <!--The required atribute is doing what is the form has to be filled or the submit wont work -->
+        </form>        
+
+    </body>
+</html>   
